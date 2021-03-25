@@ -3,6 +3,7 @@
 :root{
     --font: 'Roboto', sans-serif;
     --primary-color:#153a5b;
+    --secondary-color:#f3756d;
     --hover-color: #0b2944;
     --background-color: #f5f9fc;
 }
@@ -19,16 +20,14 @@ body{
 .blue-text{
     color: var(--primary-color);
     text-decoration: underline;
-    text-decoration-color:#f3756d ;
+    text-decoration-color:var(--secondary-color) ;
 
 }
 
 body{
     font-family: "Roboto", sans-serif;
-    /* height: 100vh; */
-    grid-template-rows: 9vh auto;
-    /* 33.2409972299169vh */
-    grid-template-columns: 33.24vh auto;
+    grid-template-rows: 4rem auto;
+    grid-template-columns: 15rem auto;
     display: grid;
     grid-template-areas: 
   "nav   nav     nav     nav nav"
@@ -37,23 +36,15 @@ body{
    
 }
 
-/* grid-template-areas: 
-  "header header header"
-  "nav     main   main"
-  "nav     main   main"
-  "footer footer footer"
-  grid-area: header;
-  grid-template-rows: 50px 1fr 30px;
-  grid-template-columns: 150px 1fr; */
+
 
 .nav{
     grid-area: nav;
     background-color:white;
     width: 100%;
-    height: 9vh;
+    height: 4rem;
     position: fixed;
-    z-index: 100;
-    /* position: sticky; */
+    z-index: 19;
 }
 
 .logo{
@@ -72,7 +63,7 @@ body{
     width: 15rem;
     top: 9vh;
     height: 100vh;
-    /* display: none; */
+
 }
 
 .a-btn{
@@ -93,7 +84,6 @@ body{
 .section{
     grid-area: section;
     background-color: var(--background-color);
-    /* width: 100%; */
     padding: 2rem 6rem 4rem 4rem;
     display: flex;
     flex-direction: column;
@@ -104,7 +94,6 @@ body{
 .center-carbon{
     display: block;
     margin: auto;
-    /* width: 120%; */
 }
 
 .container{
@@ -130,8 +119,6 @@ body{
 .card-container {
     display: flex;
     justify-content: space-around;
-    /* flex-direction: column; */
-
 }
 
 .input-container{

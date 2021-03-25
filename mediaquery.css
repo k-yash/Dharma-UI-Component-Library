@@ -1,8 +1,7 @@
 @media only screen and (max-width: 1127px) {
 	body{
-        grid-template-rows: 9vh auto;
-        /* 33.2409972299169vh */
-        grid-template-columns: 33.24vh auto;
+        grid-template-rows: 4rem auto;
+        grid-template-columns: 4rem auto;
         display: grid;
         grid-template-areas: 
       " nav     nav      nav     nav"
@@ -10,7 +9,7 @@
       " section section  section section";
        
     }
-
+    
     .aside{
         display: none;
     }
