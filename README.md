@@ -1,2 +1,2 @@
-# Dharma-UI-Component-Library
+# Prism-UI-Component-Library
  
