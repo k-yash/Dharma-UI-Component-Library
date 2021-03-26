@@ -57,8 +57,9 @@ body{
     flex-direction: column;
     position: fixed;
     width: 15rem;
-    top: 9vh;
+    top: 4rem;
     height: 100vh;
+    overflow-y: scroll;
 
 }
 
