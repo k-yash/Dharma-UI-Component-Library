@@ -274,6 +274,7 @@
     width: 13.5rem;
     position: relative;
     transition: box-shadow .5s;
+    margin: .5rem;
 }
 
 .card-v:hover{
@@ -291,6 +292,7 @@
     display: flex;
     position: relative;
     transition: box-shadow .5s;
+    margin: .5rem;
 }
 
 .card-h:hover{
