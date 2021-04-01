@@ -408,9 +408,9 @@
 
 .nav-btn{
     text-decoration: none;
-    font-size: 2.65vh;
-    padding:2vh;
-    margin: 2.5vh;
+    font-size: 1.4rem;
+    padding:.9rem;
+    margin: 1rem;
     color: var(--primary-color);
     font-weight: 600;
 }
